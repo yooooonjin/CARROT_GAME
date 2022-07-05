@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+i {
+  font-size: 25px;
+}
+button,
+img {
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+.carrot:hover {
+  transform: scale(1.1);
+}
+.bug:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  text-align: center;
+  margin: 200px auto;
+  width: 600px;
+  height: 400px;
+  background-image: url(./img/background.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.container .state-btn {
+  margin-top: 7px;
+  width: 50px;
+  height: 50px;
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.container .timer {
+  margin: 7px auto 0;
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-size: 23px;
+}
+
+.container .carrot-cnt {
+  margin: 7px auto 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 148, 148);
+  border: 3px solid black;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+}
+.field {
+  position: relative;
+  height: 239px;
+}
+.replay-wrap {
+  transform: translateY(-150%);
+  margin: 0;
+}
+
+.replay {
+  margin: auto;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.replay .replay-btn {
+  width: 50px;
+  height: 50px;
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.replay p {
+  color: white;
+  font-size: 25px;
+}
